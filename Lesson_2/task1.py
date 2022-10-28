@@ -4,7 +4,7 @@ def fun(cnt):
         if i == cnt:
             x+=1
     print(cnt,x)
-s = str(input('Ведіть символи: '))
+s = str(input('Enter the string: '))
 print("Number of letters in a string", len(s))
 print("Number of each letter separately: ")
 for cnt in s:
