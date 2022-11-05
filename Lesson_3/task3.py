@@ -1,3 +1,4 @@
 string = str(input("Enter a string:"))
-s = string.count()
-print (s)
+letter = input("Enter a letter:")
+s = string.count(letter)
+print ("Number of letter:", s)
