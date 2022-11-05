@@ -1,5 +1,5 @@
-x = int(input('Input size: '))
-for i in range(x): 
-  for j in range(x-i,0,-1): 
-    print(j, end = " ") 
+numberforpattern = int(input('Input size: '))
+for elements in range(numberforpattern): 
+  for elements in range(numberforpattern-elements,0,-1): 
+    print(elements, end = " ") 
   print()                 

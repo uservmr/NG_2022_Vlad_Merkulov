@@ -1,14 +1,14 @@
-def fun(cnt):
-    x=0
+def fun(letters):
+    numberofletters=0
     for i in s:
-        if i == cnt:
-            x+=1
-    print(cnt,x)
+        if i == letters:
+            numberofletters+=1
+    print(letters,numberofletters)
 s = str(input('Enter the string: '))
 print("Number of letters in a string", len(s))
 print("Number of each letter separately: ")
-for cnt in s:
-    fun(cnt)
+for letters in s:
+    fun(letters)
 print("Sorted by letters: ")
-for cnt in sorted(s):
-    fun(cnt)
+for letters in sorted(s):
+    fun(letters)
