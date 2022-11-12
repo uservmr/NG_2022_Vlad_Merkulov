@@ -5,7 +5,7 @@ def countofelements(string):
 def volwelsorconsonants(string):
     volwels = 0
     consonants = 0
-    all_vowels = ["а", "е", "ё", "и", "о", "у", "ы", "э", "ю", "я", "a", "e", "i", "o", "u", "y"]
+    all_vowels = ["a", "e", "i", "o", "u", "y"]
     for letters in string:
         if (letters in all_vowels):
             volwels += 1

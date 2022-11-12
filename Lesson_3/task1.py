@@ -8,8 +8,9 @@ def Division(x, y):
    return x / y
 def Power(x, y):
    return x ** y
-def SquareRoot(x):
-    return x ** 0.5
+def SquareRoot(x, y):
+   y = 0.5
+   return x ** y
 number1 = int(input("Enter the first number: "))
 number2 = int(input("Enter the second number: "))
 print("==============================")
@@ -27,7 +28,7 @@ elif (func == 4):
 elif (func == 5):
    print("Answer:", Power(number1, number2))
 elif (func == 6):
-    print("Answer:", round(SquareRoot(number1),2))
+    print("Answer:", (SquareRoot(number1, number2)))
 elif (func == 7):
     exit(1)
 else:
